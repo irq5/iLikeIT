@@ -63,6 +63,10 @@
 		DE9BA9CD142DEF9A00227417 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA9CB142DEF0500227417 /* Default-Landscape~ipad.png */; };
 		DE9CAFC5142E1DBA00288C50 /* SCGGame_ipadPreStart.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9CAFC4142E1DBA00288C50 /* SCGGame_ipadPreStart.m */; };
 		DE9CAFC8142E238100288C50 /* Contractor-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9CAFC7142E238100288C50 /* Contractor-4.jpg */; };
+		DE9CAFCD142E333500288C50 /* InSeeDang.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE9CAFC9142E333500288C50 /* InSeeDang.otf */; };
+		DE9CAFCE142E333500288C50 /* InSeeDangBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE9CAFCA142E333500288C50 /* InSeeDangBold.otf */; };
+		DE9CAFCF142E333500288C50 /* InSeeDangBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE9CAFCB142E333500288C50 /* InSeeDangBoldItalic.otf */; };
+		DE9CAFD0142E333500288C50 /* InSeeDangItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE9CAFCC142E333500288C50 /* InSeeDangItalic.otf */; };
 		DEDC6C8A142E0B7E0024E1FB /* MOTOCOME.WAV in Resources */ = {isa = PBXBuildFile; fileRef = DEDC6C89142E0B7E0024E1FB /* MOTOCOME.WAV */; };
 		DEDC6C95142E0C5F0024E1FB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDC6C94142E0C5F0024E1FB /* AudioToolbox.framework */; };
 		DEDC6C97142E0C680024E1FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDC6C96142E0C680024E1FB /* QuartzCore.framework */; };
@@ -131,6 +135,10 @@
 		DE9CAFC3142E1DBA00288C50 /* SCGGame_ipadPreStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGGame_ipadPreStart.h; sourceTree = "<group>"; };
 		DE9CAFC4142E1DBA00288C50 /* SCGGame_ipadPreStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGGame_ipadPreStart.m; sourceTree = "<group>"; };
 		DE9CAFC7142E238100288C50 /* Contractor-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Contractor-4.jpg"; sourceTree = "<group>"; };
+		DE9CAFC9142E333500288C50 /* InSeeDang.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InSeeDang.otf; sourceTree = "<group>"; };
+		DE9CAFCA142E333500288C50 /* InSeeDangBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InSeeDangBold.otf; sourceTree = "<group>"; };
+		DE9CAFCB142E333500288C50 /* InSeeDangBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InSeeDangBoldItalic.otf; sourceTree = "<group>"; };
+		DE9CAFCC142E333500288C50 /* InSeeDangItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InSeeDangItalic.otf; sourceTree = "<group>"; };
 		DEDC6C89142E0B7E0024E1FB /* MOTOCOME.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MOTOCOME.WAV; sourceTree = "<group>"; };
 		DEDC6C94142E0C5F0024E1FB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DEDC6C96142E0C680024E1FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -227,6 +235,10 @@
 			children = (
 				DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */,
 				DE9BA982142DD0E800227417 /* THA0169.ttf */,
+				DE9CAFC9142E333500288C50 /* InSeeDang.otf */,
+				DE9CAFCA142E333500288C50 /* InSeeDangBold.otf */,
+				DE9CAFCB142E333500288C50 /* InSeeDangBoldItalic.otf */,
+				DE9CAFCC142E333500288C50 /* InSeeDangItalic.otf */,
 			);
 			name = Font;
 			sourceTree = "<group>";
@@ -395,6 +407,10 @@
 				DE9BA9CD142DEF9A00227417 /* Default-Landscape~ipad.png in Resources */,
 				DEDC6C8A142E0B7E0024E1FB /* MOTOCOME.WAV in Resources */,
 				DE9CAFC8142E238100288C50 /* Contractor-4.jpg in Resources */,
+				DE9CAFCD142E333500288C50 /* InSeeDang.otf in Resources */,
+				DE9CAFCE142E333500288C50 /* InSeeDangBold.otf in Resources */,
+				DE9CAFCF142E333500288C50 /* InSeeDangBoldItalic.otf in Resources */,
+				DE9CAFD0142E333500288C50 /* InSeeDangItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

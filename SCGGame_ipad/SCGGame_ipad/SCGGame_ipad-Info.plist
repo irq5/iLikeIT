@@ -36,6 +36,10 @@
 	<array>
 		<string>AndersonFireballXL5.ttf</string>
 		<string>THA0169.ttf</string>
+		<string>InSeeDang.otf</string>
+		<string>InSeeDangBold.otf</string>
+		<string>InSeeDangBoldItalic.otf</string>
+		<string>InSeeDangItalic.otf</string>
 	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>

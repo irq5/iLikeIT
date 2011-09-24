@@ -63,10 +63,12 @@
     
     descriptionLabel = [[[UILabel alloc] initWithFrame:CGRectMake(0, 0, 575, 148)] autorelease];
     [descriptionLabel setBackgroundColor:[UIColor clearColor]];
-    [descriptionLabel setFont:[UIFont systemFontOfSize:28]];
+    [descriptionLabel setFont:[UIFont boldSystemFontOfSize:28]];
+    [descriptionLabel setTextAlignment:UITextAlignmentLeft];
+    [descriptionLabel setTextColor:[UIColor whiteColor]];
     [descriptionLabel setLineBreakMode:UILineBreakModeCharacterWrap];
     [descriptionLabel setNumberOfLines:0];
-    [descriptionLabel setText:@"Both the 11- and 13-inch MacBook Air now feature the latest generation of Intel processors, the Core i5 and i7. With speeds up to 1.8GHz and faster memory, the new MacBook Air gains up to 2.5x the processing performance over the previous generation.1 MacBook Air also features the Intel HD Graphics 3000 processor, which includes an on-chip engine for video encoding and decoding. That means you experience video playback and FaceTime calls that are smoother, more responsive, and more true to life.2"];
+    [descriptionLabel setText:@"นายช่างดี !ผมได้รับหน้าที่ให้ดูแลการก่อสร้างบ้านให้ลูกค้าแสนสวย นายต้องดูแลการก่อสร้างให้เรียบร้อยในเฟสแรกนี้ นายจะต้องเลือกปูนซิเมนต์เพื่อนำมาก่อสร้างตัวบ้านให้สมบูรณ์ โดย นายจะต้องเลือกปูนซิเมนต์ให้ครบ 20 ถุงภายในระยะเวลา 1นาที  หากเลือกผิดนายจะต้องตอบคำถามเกี่ยวกับปูนซิเมนต์ใหถูกต้อง ขอให้โชคดี!"];
     [descriptionScroll addSubview:descriptionLabel];
 }
 

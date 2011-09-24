@@ -64,7 +64,9 @@
 -(void)endOpening
 {
     SCGGame_ipadPreStart *preStartPage = [[SCGGame_ipadPreStart alloc] init];
-    [self presentModalViewController:preStartPage animated:YES];
+    preStartPage.view.alpha = 0.0;
+    [self presentModalViewController:preStartPage animated:NO];
+    [UIView animateWithDuration:1.5 animations:^{preStartPage.view.alpha = 1.0;}];
 }
 
 - (void)dealloc
