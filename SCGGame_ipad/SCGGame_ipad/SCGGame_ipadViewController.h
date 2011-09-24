@@ -12,4 +12,8 @@
     
 }
 
+- (void)animateTruck;
+- (void)animateCloud;
+- (void)playSound;
+
 @end
