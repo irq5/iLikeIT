@@ -9,11 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface SCGGame_ipadViewController : UIViewController {
-    
+    UIImageView *truck;
+    UIImageView *logo;
+    UIImageView *cloud1;
+    UIImageView *cloud2;
 }
 
 - (void)animateTruck;
-- (void)animateCloud;
+- (void)animateCloud1;
+- (void)animateCloud2;
+- (void)animateLogo;
 - (void)playSound;
 
 @end

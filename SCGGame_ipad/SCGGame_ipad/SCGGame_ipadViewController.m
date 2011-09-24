@@ -10,6 +10,48 @@
 
 @implementation SCGGame_ipadViewController
 
+- (void)animateTruck
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:5];
+    [truck setFrame:CGRectMake(385, 375, 622, 354)];
+    [UIView commitAnimations];
+}
+
+- (void)animateCloud1
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:25];
+    [UIView setAnimationCurve:UIViewAnimationCurveLinear];
+    [UIView setAnimationRepeatCount:INFINITY];
+    [cloud1 setFrame:CGRectMake(-400, 80, 328, 146)];
+    [UIView commitAnimations];
+}
+
+- (void)animateCloud2
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:40];
+    [UIView setAnimationCurve:UIViewAnimationCurveLinear];
+    [UIView setAnimationRepeatCount:INFINITY];
+    [cloud2 setFrame:CGRectMake(-400, 70, 275, 137)];
+    [UIView commitAnimations];
+}
+
+- (void)animateLogo
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDelay:5];
+    [UIView setAnimationDuration:1];
+    [logo setAlpha:1];
+    [UIView commitAnimations];
+}
+
+- (void)playSound
+{
+    
+}
+
 - (void)dealloc
 {
     [super dealloc];
@@ -30,7 +72,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // initail Back
+    UIImageView *background = [[[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)] autorelease];
+    [background setImage:[UIImage imageNamed:@"bg-Contractor1-2.jpg"]];
+    [background setContentMode:UIViewContentModeScaleAspectFit];
+    [self.view addSubview:background];
     
+    // initail frame for object
+    truck = [[[UIImageView alloc] initWithFrame:CGRectMake(1024, 375, 622, 354)] autorelease];
+    [truck setImage:[UIImage imageNamed:@"Truck.png"]];
+    [truck setContentMode:UIViewContentModeScaleAspectFit];
+    
+    cloud1 = [[[UIImageView alloc] initWithFrame:CGRectMake(1024, 80, 328, 146)] autorelease];
+    [cloud1 setImage:[UIImage imageNamed:@"sky1.png"]];
+    [cloud1 setContentMode:UIViewContentModeScaleAspectFit];
+    
+    cloud2 = [[[UIImageView alloc] initWithFrame:CGRectMake(1324, 70, 275, 137)] autorelease];
+    [cloud2 setImage:[UIImage imageNamed:@"sky2.png"]];
+    [cloud2 setContentMode:UIViewContentModeScaleAspectFit];
+    
+    logo = [[UIImageView alloc] initWithFrame:CGRectMake(365, 35, 419, 233)];
+    [logo setImage:[UIImage imageNamed:@"logo-game.png"]];
+    [logo setContentMode:UIViewContentModeScaleAspectFit];
+    [logo setAlpha:0];
+
+    [self.view addSubview:cloud1];
+    [self.view addSubview:cloud2];
+    [self.view addSubview:truck];
+    [self.view addSubview:logo];
+    
+    [self animateCloud1];
+    [self animateCloud2];
+    [self animateTruck];
+    [self animateLogo];
     
 }
 
@@ -45,7 +119,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return YES;
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) || (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
 @end

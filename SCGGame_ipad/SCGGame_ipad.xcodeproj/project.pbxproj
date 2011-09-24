@@ -458,12 +458,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Worawut Srisukkham (555B99H38D)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCGGame_ipad/SCGGame_ipad-Prefix.pch";
 				INFOPLIST_FILE = "SCGGame_ipad/SCGGame_ipad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8A7A3CE5-95C5-4145-9676-344D73E0B3DC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -472,11 +474,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Worawut Srisukkham (555B99H38D)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCGGame_ipad/SCGGame_ipad-Prefix.pch";
 				INFOPLIST_FILE = "SCGGame_ipad/SCGGame_ipad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8A7A3CE5-95C5-4145-9676-344D73E0B3DC";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
