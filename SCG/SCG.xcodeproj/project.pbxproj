@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE324C22142D9C9A00B1446F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE324C21142D9C9A00B1446F /* UIKit.framework */; };
+		DE324C24142D9C9A00B1446F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE324C23142D9C9A00B1446F /* Foundation.framework */; };
+		DE324C26142D9C9A00B1446F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE324C25142D9C9A00B1446F /* CoreGraphics.framework */; };
+		DE324C2C142D9C9A00B1446F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE324C2A142D9C9A00B1446F /* InfoPlist.strings */; };
+		DE324C2F142D9C9A00B1446F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE324C2E142D9C9A00B1446F /* main.m */; };
+		DE324C32142D9C9A00B1446F /* SCGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE324C31142D9C9A00B1446F /* SCGAppDelegate.m */; };
+		DE324C36142D9C9A00B1446F /* SCGAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = DE324C35142D9C9A00B1446F /* SCGAppDelegate_iPhone.m */; };
+		DE324C39142D9C9A00B1446F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE324C37142D9C9A00B1446F /* MainWindow_iPhone.xib */; };
+		DE324C3D142D9C9A00B1446F /* SCGAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DE324C3C142D9C9A00B1446F /* SCGAppDelegate_iPad.m */; };
+		DE324C40142D9C9A00B1446F /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE324C3E142D9C9A00B1446F /* MainWindow_iPad.xib */; };
+		DE324C52142D9F1300B1446F /* AndersonFireballXL5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE324C50142D9F1300B1446F /* AndersonFireballXL5.ttf */; };
+		DE324C53142D9F1300B1446F /* THA0169.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE324C51142D9F1300B1446F /* THA0169.ttf */; };
+		DE324C67142D9FCB00B1446F /* frame-game.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C55142D9FCB00B1446F /* frame-game.png */; };
+		DE324C68142D9FCB00B1446F /* high-score.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C56142D9FCB00B1446F /* high-score.png */; };
+		DE324C69142D9FCB00B1446F /* hint114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C57142D9FCB00B1446F /* hint114x114.png */; };
+		DE324C6A142D9FCB00B1446F /* icons-play.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C58142D9FCB00B1446F /* icons-play.png */; };
+		DE324C6B142D9FCB00B1446F /* icons-question.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C59142D9FCB00B1446F /* icons-question.png */; };
+		DE324C6C142D9FCB00B1446F /* icons-sound.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C5A142D9FCB00B1446F /* icons-sound.png */; };
+		DE324C6D142D9FCB00B1446F /* logo-game.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C5B142D9FCB00B1446F /* logo-game.png */; };
+		DE324C6E142D9FCB00B1446F /* logo-naichangdee.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE324C5C142D9FCB00B1446F /* logo-naichangdee.gif */; };
+		DE324C6F142D9FCB00B1446F /* quit114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C5D142D9FCB00B1446F /* quit114x114.png */; };
+		DE324C70142D9FCB00B1446F /* setting114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C5E142D9FCB00B1446F /* setting114x114.png */; };
+		DE324C71142D9FCB00B1446F /* Sweat.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C5F142D9FCB00B1446F /* Sweat.png */; };
+		DE324C72142D9FCB00B1446F /* tab-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C60142D9FCB00B1446F /* tab-bottom.png */; };
+		DE324C73142D9FCB00B1446F /* tab-setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C61142D9FCB00B1446F /* tab-setting.png */; };
+		DE324C74142D9FCB00B1446F /* text-exit.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C62142D9FCB00B1446F /* text-exit.png */; };
+		DE324C75142D9FCB00B1446F /* text-play.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C63142D9FCB00B1446F /* text-play.png */; };
+		DE324C76142D9FCB00B1446F /* text-setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C64142D9FCB00B1446F /* text-setting.png */; };
+		DE324C77142D9FCB00B1446F /* woman-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C65142D9FCB00B1446F /* woman-smile.png */; };
+		DE324C78142D9FCB00B1446F /* woman-unsmile.png in Resources */ = {isa = PBXBuildFile; fileRef = DE324C66142D9FCB00B1446F /* woman-unsmile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE324C1D142D9C9A00B1446F /* SCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE324C21142D9C9A00B1446F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE324C23142D9C9A00B1446F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE324C25142D9C9A00B1446F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE324C29142D9C9A00B1446F /* SCG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCG-Info.plist"; sourceTree = "<group>"; };
+		DE324C2B142D9C9A00B1446F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE324C2D142D9C9A00B1446F /* SCG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCG-Prefix.pch"; sourceTree = "<group>"; };
+		DE324C2E142D9C9A00B1446F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE324C30142D9C9A00B1446F /* SCGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGAppDelegate.h; sourceTree = "<group>"; };
+		DE324C31142D9C9A00B1446F /* SCGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGAppDelegate.m; sourceTree = "<group>"; };
+		DE324C34142D9C9A00B1446F /* SCGAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCGAppDelegate_iPhone.h; path = iPhone/SCGAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		DE324C35142D9C9A00B1446F /* SCGAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SCGAppDelegate_iPhone.m; path = iPhone/SCGAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		DE324C38142D9C9A00B1446F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		DE324C3B142D9C9A00B1446F /* SCGAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCGAppDelegate_iPad.h; path = iPad/SCGAppDelegate_iPad.h; sourceTree = "<group>"; };
+		DE324C3C142D9C9A00B1446F /* SCGAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SCGAppDelegate_iPad.m; path = iPad/SCGAppDelegate_iPad.m; sourceTree = "<group>"; };
+		DE324C3F142D9C9A00B1446F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		DE324C50142D9F1300B1446F /* AndersonFireballXL5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AndersonFireballXL5.ttf; sourceTree = "<group>"; };
+		DE324C51142D9F1300B1446F /* THA0169.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = THA0169.ttf; sourceTree = "<group>"; };
+		DE324C55142D9FCB00B1446F /* frame-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-game.png"; sourceTree = "<group>"; };
+		DE324C56142D9FCB00B1446F /* high-score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-score.png"; sourceTree = "<group>"; };
+		DE324C57142D9FCB00B1446F /* hint114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hint114x114.png; sourceTree = "<group>"; };
+		DE324C58142D9FCB00B1446F /* icons-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-play.png"; sourceTree = "<group>"; };
+		DE324C59142D9FCB00B1446F /* icons-question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-question.png"; sourceTree = "<group>"; };
+		DE324C5A142D9FCB00B1446F /* icons-sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-sound.png"; sourceTree = "<group>"; };
+		DE324C5B142D9FCB00B1446F /* logo-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-game.png"; sourceTree = "<group>"; };
+		DE324C5C142D9FCB00B1446F /* logo-naichangdee.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "logo-naichangdee.gif"; sourceTree = "<group>"; };
+		DE324C5D142D9FCB00B1446F /* quit114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quit114x114.png; sourceTree = "<group>"; };
+		DE324C5E142D9FCB00B1446F /* setting114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting114x114.png; sourceTree = "<group>"; };
+		DE324C5F142D9FCB00B1446F /* Sweat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweat.png; sourceTree = "<group>"; };
+		DE324C60142D9FCB00B1446F /* tab-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-bottom.png"; sourceTree = "<group>"; };
+		DE324C61142D9FCB00B1446F /* tab-setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-setting.png"; sourceTree = "<group>"; };
+		DE324C62142D9FCB00B1446F /* text-exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-exit.png"; sourceTree = "<group>"; };
+		DE324C63142D9FCB00B1446F /* text-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-play.png"; sourceTree = "<group>"; };
+		DE324C64142D9FCB00B1446F /* text-setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-setting.png"; sourceTree = "<group>"; };
+		DE324C65142D9FCB00B1446F /* woman-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woman-smile.png"; sourceTree = "<group>"; };
+		DE324C66142D9FCB00B1446F /* woman-unsmile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woman-unsmile.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE324C1A142D9C9A00B1446F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE324C22142D9C9A00B1446F /* UIKit.framework in Frameworks */,
+				DE324C24142D9C9A00B1446F /* Foundation.framework in Frameworks */,
+				DE324C26142D9C9A00B1446F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE324C12142D9C9A00B1446F = {
+			isa = PBXGroup;
+			children = (
+				DE324C4F142D9EDA00B1446F /* Font */,
+				DE324C46142D9DC100B1446F /* ImageResorce */,
+				DE324C27142D9C9A00B1446F /* SCG */,
+				DE324C20142D9C9A00B1446F /* Frameworks */,
+				DE324C1E142D9C9A00B1446F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE324C1E142D9C9A00B1446F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C1D142D9C9A00B1446F /* SCG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE324C20142D9C9A00B1446F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C21142D9C9A00B1446F /* UIKit.framework */,
+				DE324C23142D9C9A00B1446F /* Foundation.framework */,
+				DE324C25142D9C9A00B1446F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE324C27142D9C9A00B1446F /* SCG */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C30142D9C9A00B1446F /* SCGAppDelegate.h */,
+				DE324C31142D9C9A00B1446F /* SCGAppDelegate.m */,
+				DE324C33142D9C9A00B1446F /* iPhone */,
+				DE324C3A142D9C9A00B1446F /* iPad */,
+				DE324C28142D9C9A00B1446F /* Supporting Files */,
+			);
+			path = SCG;
+			sourceTree = "<group>";
+		};
+		DE324C28142D9C9A00B1446F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C29142D9C9A00B1446F /* SCG-Info.plist */,
+				DE324C2A142D9C9A00B1446F /* InfoPlist.strings */,
+				DE324C2D142D9C9A00B1446F /* SCG-Prefix.pch */,
+				DE324C2E142D9C9A00B1446F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE324C33142D9C9A00B1446F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C34142D9C9A00B1446F /* SCGAppDelegate_iPhone.h */,
+				DE324C35142D9C9A00B1446F /* SCGAppDelegate_iPhone.m */,
+				DE324C37142D9C9A00B1446F /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		DE324C3A142D9C9A00B1446F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C3B142D9C9A00B1446F /* SCGAppDelegate_iPad.h */,
+				DE324C3C142D9C9A00B1446F /* SCGAppDelegate_iPad.m */,
+				DE324C3E142D9C9A00B1446F /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		DE324C46142D9DC100B1446F /* ImageResorce */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C4E142D9DE600B1446F /* iPad */,
+				DE324C4C142D9DE300B1446F /* iPhone4 */,
+				DE324C47142D9DDA00B1446F /* iPhone3 */,
+			);
+			name = ImageResorce;
+			sourceTree = "<group>";
+		};
+		DE324C47142D9DDA00B1446F /* iPhone3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPhone3;
+			sourceTree = "<group>";
+		};
+		DE324C4C142D9DE300B1446F /* iPhone4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPhone4;
+			sourceTree = "<group>";
+		};
+		DE324C4E142D9DE600B1446F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C79142D9FFD00B1446F /* New Group */,
+				DE324C54142D9FB300B1446F /* icon */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		DE324C4F142D9EDA00B1446F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C50142D9F1300B1446F /* AndersonFireballXL5.ttf */,
+				DE324C51142D9F1300B1446F /* THA0169.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		DE324C54142D9FB300B1446F /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				DE324C55142D9FCB00B1446F /* frame-game.png */,
+				DE324C56142D9FCB00B1446F /* high-score.png */,
+				DE324C57142D9FCB00B1446F /* hint114x114.png */,
+				DE324C58142D9FCB00B1446F /* icons-play.png */,
+				DE324C59142D9FCB00B1446F /* icons-question.png */,
+				DE324C5A142D9FCB00B1446F /* icons-sound.png */,
+				DE324C5B142D9FCB00B1446F /* logo-game.png */,
+				DE324C5C142D9FCB00B1446F /* logo-naichangdee.gif */,
+				DE324C5D142D9FCB00B1446F /* quit114x114.png */,
+				DE324C5E142D9FCB00B1446F /* setting114x114.png */,
+				DE324C5F142D9FCB00B1446F /* Sweat.png */,
+				DE324C60142D9FCB00B1446F /* tab-bottom.png */,
+				DE324C61142D9FCB00B1446F /* tab-setting.png */,
+				DE324C62142D9FCB00B1446F /* text-exit.png */,
+				DE324C63142D9FCB00B1446F /* text-play.png */,
+				DE324C64142D9FCB00B1446F /* text-setting.png */,
+				DE324C65142D9FCB00B1446F /* woman-smile.png */,
+				DE324C66142D9FCB00B1446F /* woman-unsmile.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		DE324C79142D9FFD00B1446F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE324C1C142D9C9A00B1446F /* SCG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE324C43142D9C9A00B1446F /* Build configuration list for PBXNativeTarget "SCG" */;
+			buildPhases = (
+				DE324C19142D9C9A00B1446F /* Sources */,
+				DE324C1A142D9C9A00B1446F /* Frameworks */,
+				DE324C1B142D9C9A00B1446F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCG;
+			productName = SCG;
+			productReference = DE324C1D142D9C9A00B1446F /* SCG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE324C14142D9C9A00B1446F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "CloudDHA Mobile Application Development";
+			};
+			buildConfigurationList = DE324C17142D9C9A00B1446F /* Build configuration list for PBXProject "SCG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE324C12142D9C9A00B1446F;
+			productRefGroup = DE324C1E142D9C9A00B1446F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE324C1C142D9C9A00B1446F /* SCG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE324C1B142D9C9A00B1446F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE324C2C142D9C9A00B1446F /* InfoPlist.strings in Resources */,
+				DE324C39142D9C9A00B1446F /* MainWindow_iPhone.xib in Resources */,
+				DE324C40142D9C9A00B1446F /* MainWindow_iPad.xib in Resources */,
+				DE324C52142D9F1300B1446F /* AndersonFireballXL5.ttf in Resources */,
+				DE324C53142D9F1300B1446F /* THA0169.ttf in Resources */,
+				DE324C67142D9FCB00B1446F /* frame-game.png in Resources */,
+				DE324C68142D9FCB00B1446F /* high-score.png in Resources */,
+				DE324C69142D9FCB00B1446F /* hint114x114.png in Resources */,
+				DE324C6A142D9FCB00B1446F /* icons-play.png in Resources */,
+				DE324C6B142D9FCB00B1446F /* icons-question.png in Resources */,
+				DE324C6C142D9FCB00B1446F /* icons-sound.png in Resources */,
+				DE324C6D142D9FCB00B1446F /* logo-game.png in Resources */,
+				DE324C6E142D9FCB00B1446F /* logo-naichangdee.gif in Resources */,
+				DE324C6F142D9FCB00B1446F /* quit114x114.png in Resources */,
+				DE324C70142D9FCB00B1446F /* setting114x114.png in Resources */,
+				DE324C71142D9FCB00B1446F /* Sweat.png in Resources */,
+				DE324C72142D9FCB00B1446F /* tab-bottom.png in Resources */,
+				DE324C73142D9FCB00B1446F /* tab-setting.png in Resources */,
+				DE324C74142D9FCB00B1446F /* text-exit.png in Resources */,
+				DE324C75142D9FCB00B1446F /* text-play.png in Resources */,
+				DE324C76142D9FCB00B1446F /* text-setting.png in Resources */,
+				DE324C77142D9FCB00B1446F /* woman-smile.png in Resources */,
+				DE324C78142D9FCB00B1446F /* woman-unsmile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE324C19142D9C9A00B1446F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE324C2F142D9C9A00B1446F /* main.m in Sources */,
+				DE324C32142D9C9A00B1446F /* SCGAppDelegate.m in Sources */,
+				DE324C36142D9C9A00B1446F /* SCGAppDelegate_iPhone.m in Sources */,
+				DE324C3D142D9C9A00B1446F /* SCGAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE324C2A142D9C9A00B1446F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE324C2B142D9C9A00B1446F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE324C37142D9C9A00B1446F /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE324C38142D9C9A00B1446F /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DE324C3E142D9C9A00B1446F /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE324C3F142D9C9A00B1446F /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE324C41142D9C9A00B1446F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Worawut Srisukkham (555B99H38D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "85BD28FE-E6F8-46B1-A58D-A6EAAE9C4EAC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE324C42142D9C9A00B1446F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Worawut Srisukkham (555B99H38D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "85BD28FE-E6F8-46B1-A58D-A6EAAE9C4EAC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE324C44142D9C9A00B1446F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCG/SCG-Prefix.pch";
+				INFOPLIST_FILE = "SCG/SCG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE324C45142D9C9A00B1446F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCG/SCG-Prefix.pch";
+				INFOPLIST_FILE = "SCG/SCG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE324C17142D9C9A00B1446F /* Build configuration list for PBXProject "SCG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE324C41142D9C9A00B1446F /* Debug */,
+				DE324C42142D9C9A00B1446F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE324C43142D9C9A00B1446F /* Build configuration list for PBXNativeTarget "SCG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE324C44142D9C9A00B1446F /* Debug */,
+				DE324C45142D9C9A00B1446F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE324C14142D9C9A00B1446F /* Project object */;
+}
