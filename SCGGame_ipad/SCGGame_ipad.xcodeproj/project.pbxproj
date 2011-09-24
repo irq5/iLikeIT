@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9BA93B142DD06600227417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9BA93A142DD06600227417 /* UIKit.framework */; };
+		DE9BA93D142DD06600227417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9BA93C142DD06600227417 /* Foundation.framework */; };
+		DE9BA93F142DD06600227417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9BA93E142DD06600227417 /* CoreGraphics.framework */; };
+		DE9BA945142DD06600227417 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA943142DD06600227417 /* InfoPlist.strings */; };
+		DE9BA948142DD06600227417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9BA947142DD06600227417 /* main.m */; };
+		DE9BA94B142DD06600227417 /* SCGGame_ipadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9BA94A142DD06600227417 /* SCGGame_ipadAppDelegate.m */; };
+		DE9BA94E142DD06600227417 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA94C142DD06600227417 /* MainWindow.xib */; };
+		DE9BA951142DD06600227417 /* SCGGame_ipadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9BA950142DD06600227417 /* SCGGame_ipadViewController.m */; };
+		DE9BA954142DD06600227417 /* SCGGame_ipadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA952142DD06600227417 /* SCGGame_ipadViewController.xib */; };
+		DE9BA96D142DD0B000227417 /* frame-game.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95B142DD0B000227417 /* frame-game.png */; };
+		DE9BA96E142DD0B000227417 /* high-score.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95C142DD0B000227417 /* high-score.png */; };
+		DE9BA96F142DD0B000227417 /* hint114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95D142DD0B000227417 /* hint114x114.png */; };
+		DE9BA970142DD0B000227417 /* icons-play.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95E142DD0B000227417 /* icons-play.png */; };
+		DE9BA971142DD0B000227417 /* icons-question.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95F142DD0B000227417 /* icons-question.png */; };
+		DE9BA972142DD0B000227417 /* icons-sound.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA960142DD0B000227417 /* icons-sound.png */; };
+		DE9BA973142DD0B000227417 /* logo-game.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA961142DD0B000227417 /* logo-game.png */; };
+		DE9BA974142DD0B000227417 /* logo-naichangdee.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA962142DD0B000227417 /* logo-naichangdee.gif */; };
+		DE9BA975142DD0B000227417 /* quit114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA963142DD0B000227417 /* quit114x114.png */; };
+		DE9BA976142DD0B000227417 /* setting114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA964142DD0B000227417 /* setting114x114.png */; };
+		DE9BA977142DD0B000227417 /* Sweat.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA965142DD0B000227417 /* Sweat.png */; };
+		DE9BA978142DD0B000227417 /* tab-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA966142DD0B000227417 /* tab-bottom.png */; };
+		DE9BA979142DD0B000227417 /* tab-setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA967142DD0B000227417 /* tab-setting.png */; };
+		DE9BA97A142DD0B000227417 /* text-exit.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA968142DD0B000227417 /* text-exit.png */; };
+		DE9BA97B142DD0B000227417 /* text-play.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA969142DD0B000227417 /* text-play.png */; };
+		DE9BA97C142DD0B000227417 /* text-setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA96A142DD0B000227417 /* text-setting.png */; };
+		DE9BA97D142DD0B000227417 /* woman-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA96B142DD0B000227417 /* woman-smile.png */; };
+		DE9BA97E142DD0B000227417 /* woman-unsmile.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA96C142DD0B000227417 /* woman-unsmile.png */; };
+		DE9BA981142DD0D100227417 /* AndersonFireballXL5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */; };
+		DE9BA983142DD0E800227417 /* THA0169.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA982142DD0E800227417 /* THA0169.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE9BA936142DD06600227417 /* SCGGame_ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCGGame_ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9BA93A142DD06600227417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE9BA93C142DD06600227417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE9BA93E142DD06600227417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE9BA942142DD06600227417 /* SCGGame_ipad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCGGame_ipad-Info.plist"; sourceTree = "<group>"; };
+		DE9BA944142DD06600227417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE9BA946142DD06600227417 /* SCGGame_ipad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCGGame_ipad-Prefix.pch"; sourceTree = "<group>"; };
+		DE9BA947142DD06600227417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE9BA949142DD06600227417 /* SCGGame_ipadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGGame_ipadAppDelegate.h; sourceTree = "<group>"; };
+		DE9BA94A142DD06600227417 /* SCGGame_ipadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGGame_ipadAppDelegate.m; sourceTree = "<group>"; };
+		DE9BA94D142DD06600227417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DE9BA94F142DD06600227417 /* SCGGame_ipadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGGame_ipadViewController.h; sourceTree = "<group>"; };
+		DE9BA950142DD06600227417 /* SCGGame_ipadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGGame_ipadViewController.m; sourceTree = "<group>"; };
+		DE9BA953142DD06600227417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCGGame_ipadViewController.xib; sourceTree = "<group>"; };
+		DE9BA95B142DD0B000227417 /* frame-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-game.png"; sourceTree = "<group>"; };
+		DE9BA95C142DD0B000227417 /* high-score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-score.png"; sourceTree = "<group>"; };
+		DE9BA95D142DD0B000227417 /* hint114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hint114x114.png; sourceTree = "<group>"; };
+		DE9BA95E142DD0B000227417 /* icons-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-play.png"; sourceTree = "<group>"; };
+		DE9BA95F142DD0B000227417 /* icons-question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-question.png"; sourceTree = "<group>"; };
+		DE9BA960142DD0B000227417 /* icons-sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-sound.png"; sourceTree = "<group>"; };
+		DE9BA961142DD0B000227417 /* logo-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-game.png"; sourceTree = "<group>"; };
+		DE9BA962142DD0B000227417 /* logo-naichangdee.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "logo-naichangdee.gif"; sourceTree = "<group>"; };
+		DE9BA963142DD0B000227417 /* quit114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quit114x114.png; sourceTree = "<group>"; };
+		DE9BA964142DD0B000227417 /* setting114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting114x114.png; sourceTree = "<group>"; };
+		DE9BA965142DD0B000227417 /* Sweat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweat.png; sourceTree = "<group>"; };
+		DE9BA966142DD0B000227417 /* tab-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-bottom.png"; sourceTree = "<group>"; };
+		DE9BA967142DD0B000227417 /* tab-setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-setting.png"; sourceTree = "<group>"; };
+		DE9BA968142DD0B000227417 /* text-exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-exit.png"; sourceTree = "<group>"; };
+		DE9BA969142DD0B000227417 /* text-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-play.png"; sourceTree = "<group>"; };
+		DE9BA96A142DD0B000227417 /* text-setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-setting.png"; sourceTree = "<group>"; };
+		DE9BA96B142DD0B000227417 /* woman-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woman-smile.png"; sourceTree = "<group>"; };
+		DE9BA96C142DD0B000227417 /* woman-unsmile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woman-unsmile.png"; sourceTree = "<group>"; };
+		DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AndersonFireballXL5.ttf; sourceTree = "<group>"; };
+		DE9BA982142DD0E800227417 /* THA0169.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = THA0169.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9BA933142DD06600227417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9BA93B142DD06600227417 /* UIKit.framework in Frameworks */,
+				DE9BA93D142DD06600227417 /* Foundation.framework in Frameworks */,
+				DE9BA93F142DD06600227417 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE9BA92B142DD06600227417 = {
+			isa = PBXGroup;
+			children = (
+				DE9BA97F142DD0B600227417 /* Font */,
+				DE9BA95A142DD09900227417 /* ImageResource */,
+				DE9BA940142DD06600227417 /* SCGGame_ipad */,
+				DE9BA939142DD06600227417 /* Frameworks */,
+				DE9BA937142DD06600227417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9BA937142DD06600227417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BA936142DD06600227417 /* SCGGame_ipad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9BA939142DD06600227417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BA93A142DD06600227417 /* UIKit.framework */,
+				DE9BA93C142DD06600227417 /* Foundation.framework */,
+				DE9BA93E142DD06600227417 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9BA940142DD06600227417 /* SCGGame_ipad */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BA949142DD06600227417 /* SCGGame_ipadAppDelegate.h */,
+				DE9BA94A142DD06600227417 /* SCGGame_ipadAppDelegate.m */,
+				DE9BA94C142DD06600227417 /* MainWindow.xib */,
+				DE9BA94F142DD06600227417 /* SCGGame_ipadViewController.h */,
+				DE9BA950142DD06600227417 /* SCGGame_ipadViewController.m */,
+				DE9BA952142DD06600227417 /* SCGGame_ipadViewController.xib */,
+				DE9BA941142DD06600227417 /* Supporting Files */,
+			);
+			path = SCGGame_ipad;
+			sourceTree = "<group>";
+		};
+		DE9BA941142DD06600227417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BA942142DD06600227417 /* SCGGame_ipad-Info.plist */,
+				DE9BA943142DD06600227417 /* InfoPlist.strings */,
+				DE9BA946142DD06600227417 /* SCGGame_ipad-Prefix.pch */,
+				DE9BA947142DD06600227417 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE9BA95A142DD09900227417 /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BA95B142DD0B000227417 /* frame-game.png */,
+				DE9BA95C142DD0B000227417 /* high-score.png */,
+				DE9BA95D142DD0B000227417 /* hint114x114.png */,
+				DE9BA95E142DD0B000227417 /* icons-play.png */,
+				DE9BA95F142DD0B000227417 /* icons-question.png */,
+				DE9BA960142DD0B000227417 /* icons-sound.png */,
+				DE9BA961142DD0B000227417 /* logo-game.png */,
+				DE9BA962142DD0B000227417 /* logo-naichangdee.gif */,
+				DE9BA963142DD0B000227417 /* quit114x114.png */,
+				DE9BA964142DD0B000227417 /* setting114x114.png */,
+				DE9BA965142DD0B000227417 /* Sweat.png */,
+				DE9BA966142DD0B000227417 /* tab-bottom.png */,
+				DE9BA967142DD0B000227417 /* tab-setting.png */,
+				DE9BA968142DD0B000227417 /* text-exit.png */,
+				DE9BA969142DD0B000227417 /* text-play.png */,
+				DE9BA96A142DD0B000227417 /* text-setting.png */,
+				DE9BA96B142DD0B000227417 /* woman-smile.png */,
+				DE9BA96C142DD0B000227417 /* woman-unsmile.png */,
+			);
+			name = ImageResource;
+			sourceTree = "<group>";
+		};
+		DE9BA97F142DD0B600227417 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */,
+				DE9BA982142DD0E800227417 /* THA0169.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9BA935142DD06600227417 /* SCGGame_ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9BA957142DD06600227417 /* Build configuration list for PBXNativeTarget "SCGGame_ipad" */;
+			buildPhases = (
+				DE9BA932142DD06600227417 /* Sources */,
+				DE9BA933142DD06600227417 /* Frameworks */,
+				DE9BA934142DD06600227417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCGGame_ipad;
+			productName = SCGGame_ipad;
+			productReference = DE9BA936142DD06600227417 /* SCGGame_ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9BA92D142DD06600227417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "CloudDHA Mobile Application Development";
+			};
+			buildConfigurationList = DE9BA930142DD06600227417 /* Build configuration list for PBXProject "SCGGame_ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE9BA92B142DD06600227417;
+			productRefGroup = DE9BA937142DD06600227417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9BA935142DD06600227417 /* SCGGame_ipad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9BA934142DD06600227417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9BA945142DD06600227417 /* InfoPlist.strings in Resources */,
+				DE9BA94E142DD06600227417 /* MainWindow.xib in Resources */,
+				DE9BA954142DD06600227417 /* SCGGame_ipadViewController.xib in Resources */,
+				DE9BA96D142DD0B000227417 /* frame-game.png in Resources */,
+				DE9BA96E142DD0B000227417 /* high-score.png in Resources */,
+				DE9BA96F142DD0B000227417 /* hint114x114.png in Resources */,
+				DE9BA970142DD0B000227417 /* icons-play.png in Resources */,
+				DE9BA971142DD0B000227417 /* icons-question.png in Resources */,
+				DE9BA972142DD0B000227417 /* icons-sound.png in Resources */,
+				DE9BA973142DD0B000227417 /* logo-game.png in Resources */,
+				DE9BA974142DD0B000227417 /* logo-naichangdee.gif in Resources */,
+				DE9BA975142DD0B000227417 /* quit114x114.png in Resources */,
+				DE9BA976142DD0B000227417 /* setting114x114.png in Resources */,
+				DE9BA977142DD0B000227417 /* Sweat.png in Resources */,
+				DE9BA978142DD0B000227417 /* tab-bottom.png in Resources */,
+				DE9BA979142DD0B000227417 /* tab-setting.png in Resources */,
+				DE9BA97A142DD0B000227417 /* text-exit.png in Resources */,
+				DE9BA97B142DD0B000227417 /* text-play.png in Resources */,
+				DE9BA97C142DD0B000227417 /* text-setting.png in Resources */,
+				DE9BA97D142DD0B000227417 /* woman-smile.png in Resources */,
+				DE9BA97E142DD0B000227417 /* woman-unsmile.png in Resources */,
+				DE9BA981142DD0D100227417 /* AndersonFireballXL5.ttf in Resources */,
+				DE9BA983142DD0E800227417 /* THA0169.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9BA932142DD06600227417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9BA948142DD06600227417 /* main.m in Sources */,
+				DE9BA94B142DD06600227417 /* SCGGame_ipadAppDelegate.m in Sources */,
+				DE9BA951142DD06600227417 /* SCGGame_ipadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE9BA943142DD06600227417 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9BA944142DD06600227417 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE9BA94C142DD06600227417 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9BA94D142DD06600227417 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DE9BA952142DD06600227417 /* SCGGame_ipadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9BA953142DD06600227417 /* en */,
+			);
+			name = SCGGame_ipadViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE9BA955142DD06600227417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DE9BA956142DD06600227417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		DE9BA958142DD06600227417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCGGame_ipad/SCGGame_ipad-Prefix.pch";
+				INFOPLIST_FILE = "SCGGame_ipad/SCGGame_ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE9BA959142DD06600227417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCGGame_ipad/SCGGame_ipad-Prefix.pch";
+				INFOPLIST_FILE = "SCGGame_ipad/SCGGame_ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE9BA930142DD06600227417 /* Build configuration list for PBXProject "SCGGame_ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9BA955142DD06600227417 /* Debug */,
+				DE9BA956142DD06600227417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9BA957142DD06600227417 /* Build configuration list for PBXNativeTarget "SCGGame_ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9BA958142DD06600227417 /* Debug */,
+				DE9BA959142DD06600227417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE9BA92D142DD06600227417 /* Project object */;
+}
