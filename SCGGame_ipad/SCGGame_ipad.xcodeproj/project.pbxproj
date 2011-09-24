@@ -36,6 +36,9 @@
 		DE9BA97E142DD0B000227417 /* woman-unsmile.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA96C142DD0B000227417 /* woman-unsmile.png */; };
 		DE9BA981142DD0D100227417 /* AndersonFireballXL5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */; };
 		DE9BA983142DD0E800227417 /* THA0169.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA982142DD0E800227417 /* THA0169.ttf */; };
+		DE9BA987142DD21600227417 /* bg-Contractor2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA984142DD21600227417 /* bg-Contractor2.jpg */; };
+		DE9BA988142DD21600227417 /* bg-Contractor1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA985142DD21600227417 /* bg-Contractor1-2.jpg */; };
+		DE9BA989142DD21600227417 /* bg-Contractor1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA986142DD21600227417 /* bg-Contractor1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +76,9 @@
 		DE9BA96C142DD0B000227417 /* woman-unsmile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woman-unsmile.png"; sourceTree = "<group>"; };
 		DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AndersonFireballXL5.ttf; sourceTree = "<group>"; };
 		DE9BA982142DD0E800227417 /* THA0169.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = THA0169.ttf; sourceTree = "<group>"; };
+		DE9BA984142DD21600227417 /* bg-Contractor2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-Contractor2.jpg"; sourceTree = "<group>"; };
+		DE9BA985142DD21600227417 /* bg-Contractor1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-Contractor1-2.jpg"; sourceTree = "<group>"; };
+		DE9BA986142DD21600227417 /* bg-Contractor1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-Contractor1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,34 @@
 		DE9BA95A142DD09900227417 /* ImageResource */ = {
 			isa = PBXGroup;
 			children = (
+				DE9BA98B142DD23000227417 /* icon */,
+				DE9BA98A142DD21C00227417 /* bg */,
+			);
+			name = ImageResource;
+			sourceTree = "<group>";
+		};
+		DE9BA97F142DD0B600227417 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */,
+				DE9BA982142DD0E800227417 /* THA0169.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		DE9BA98A142DD21C00227417 /* bg */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BA984142DD21600227417 /* bg-Contractor2.jpg */,
+				DE9BA985142DD21600227417 /* bg-Contractor1-2.jpg */,
+				DE9BA986142DD21600227417 /* bg-Contractor1.jpg */,
+			);
+			name = bg;
+			sourceTree = "<group>";
+		};
+		DE9BA98B142DD23000227417 /* icon */ = {
+			isa = PBXGroup;
+			children = (
 				DE9BA95B142DD0B000227417 /* frame-game.png */,
 				DE9BA95C142DD0B000227417 /* high-score.png */,
 				DE9BA95D142DD0B000227417 /* hint114x114.png */,
@@ -165,16 +199,7 @@
 				DE9BA96B142DD0B000227417 /* woman-smile.png */,
 				DE9BA96C142DD0B000227417 /* woman-unsmile.png */,
 			);
-			name = ImageResource;
-			sourceTree = "<group>";
-		};
-		DE9BA97F142DD0B600227417 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */,
-				DE9BA982142DD0E800227417 /* THA0169.ttf */,
-			);
-			name = Font;
+			name = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +275,9 @@
 				DE9BA97E142DD0B000227417 /* woman-unsmile.png in Resources */,
 				DE9BA981142DD0D100227417 /* AndersonFireballXL5.ttf in Resources */,
 				DE9BA983142DD0E800227417 /* THA0169.ttf in Resources */,
+				DE9BA987142DD21600227417 /* bg-Contractor2.jpg in Resources */,
+				DE9BA988142DD21600227417 /* bg-Contractor1-2.jpg in Resources */,
+				DE9BA989142DD21600227417 /* bg-Contractor1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
