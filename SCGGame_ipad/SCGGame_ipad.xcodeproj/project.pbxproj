@@ -23,7 +23,6 @@
 		DE9BA971142DD0B000227417 /* icons-question.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95F142DD0B000227417 /* icons-question.png */; };
 		DE9BA972142DD0B000227417 /* icons-sound.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA960142DD0B000227417 /* icons-sound.png */; };
 		DE9BA973142DD0B000227417 /* logo-game.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA961142DD0B000227417 /* logo-game.png */; };
-		DE9BA974142DD0B000227417 /* logo-naichangdee.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA962142DD0B000227417 /* logo-naichangdee.gif */; };
 		DE9BA975142DD0B000227417 /* quit114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA963142DD0B000227417 /* quit114x114.png */; };
 		DE9BA976142DD0B000227417 /* setting114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA964142DD0B000227417 /* setting114x114.png */; };
 		DE9BA977142DD0B000227417 /* Sweat.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA965142DD0B000227417 /* Sweat.png */; };
@@ -61,6 +60,7 @@
 		DE9BA9BE142DD3A500227417 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA9A8142DD3A500227417 /* star.png */; };
 		DE9BA9BF142DD3A500227417 /* Truck.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA9A9142DD3A500227417 /* Truck.png */; };
 		DE9BA9C0142DD3A500227417 /* Truck+Shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA9AA142DD3A500227417 /* Truck+Shadow.png */; };
+		DE9BA9CD142DEF9A00227417 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA9CB142DEF0500227417 /* Default-Landscape~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,7 +85,6 @@
 		DE9BA95F142DD0B000227417 /* icons-question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-question.png"; sourceTree = "<group>"; };
 		DE9BA960142DD0B000227417 /* icons-sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-sound.png"; sourceTree = "<group>"; };
 		DE9BA961142DD0B000227417 /* logo-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-game.png"; sourceTree = "<group>"; };
-		DE9BA962142DD0B000227417 /* logo-naichangdee.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "logo-naichangdee.gif"; sourceTree = "<group>"; };
 		DE9BA963142DD0B000227417 /* quit114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quit114x114.png; sourceTree = "<group>"; };
 		DE9BA964142DD0B000227417 /* setting114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting114x114.png; sourceTree = "<group>"; };
 		DE9BA965142DD0B000227417 /* Sweat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweat.png; sourceTree = "<group>"; };
@@ -123,6 +122,7 @@
 		DE9BA9A8142DD3A500227417 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		DE9BA9A9142DD3A500227417 /* Truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Truck.png; sourceTree = "<group>"; };
 		DE9BA9AA142DD3A500227417 /* Truck+Shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Truck+Shadow.png"; sourceTree = "<group>"; };
+		DE9BA9CB142DEF0500227417 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +142,7 @@
 		DE9BA92B142DD06600227417 = {
 			isa = PBXGroup;
 			children = (
+				DE9BA9CB142DEF0500227417 /* Default-Landscape~ipad.png */,
 				DE9BA97F142DD0B600227417 /* Font */,
 				DE9BA95A142DD09900227417 /* ImageResource */,
 				DE9BA940142DD06600227417 /* SCGGame_ipad */,
@@ -232,7 +233,6 @@
 				DE9BA95F142DD0B000227417 /* icons-question.png */,
 				DE9BA960142DD0B000227417 /* icons-sound.png */,
 				DE9BA961142DD0B000227417 /* logo-game.png */,
-				DE9BA962142DD0B000227417 /* logo-naichangdee.gif */,
 				DE9BA963142DD0B000227417 /* quit114x114.png */,
 				DE9BA964142DD0B000227417 /* setting114x114.png */,
 				DE9BA965142DD0B000227417 /* Sweat.png */,
@@ -336,7 +336,6 @@
 				DE9BA971142DD0B000227417 /* icons-question.png in Resources */,
 				DE9BA972142DD0B000227417 /* icons-sound.png in Resources */,
 				DE9BA973142DD0B000227417 /* logo-game.png in Resources */,
-				DE9BA974142DD0B000227417 /* logo-naichangdee.gif in Resources */,
 				DE9BA975142DD0B000227417 /* quit114x114.png in Resources */,
 				DE9BA976142DD0B000227417 /* setting114x114.png in Resources */,
 				DE9BA977142DD0B000227417 /* Sweat.png in Resources */,
@@ -374,6 +373,7 @@
 				DE9BA9BE142DD3A500227417 /* star.png in Resources */,
 				DE9BA9BF142DD3A500227417 /* Truck.png in Resources */,
 				DE9BA9C0142DD3A500227417 /* Truck+Shadow.png in Resources */,
+				DE9BA9CD142DEF9A00227417 /* Default-Landscape~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
