@@ -61,6 +61,11 @@
 		DE9BA9BF142DD3A500227417 /* Truck.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA9A9142DD3A500227417 /* Truck.png */; };
 		DE9BA9C0142DD3A500227417 /* Truck+Shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA9AA142DD3A500227417 /* Truck+Shadow.png */; };
 		DE9BA9CD142DEF9A00227417 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA9CB142DEF0500227417 /* Default-Landscape~ipad.png */; };
+		DE9CAFC5142E1DBA00288C50 /* SCGGame_ipadPreStart.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9CAFC4142E1DBA00288C50 /* SCGGame_ipadPreStart.m */; };
+		DE9CAFC8142E238100288C50 /* Contractor-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9CAFC7142E238100288C50 /* Contractor-4.jpg */; };
+		DEDC6C8A142E0B7E0024E1FB /* MOTOCOME.WAV in Resources */ = {isa = PBXBuildFile; fileRef = DEDC6C89142E0B7E0024E1FB /* MOTOCOME.WAV */; };
+		DEDC6C95142E0C5F0024E1FB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDC6C94142E0C5F0024E1FB /* AudioToolbox.framework */; };
+		DEDC6C97142E0C680024E1FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDC6C96142E0C680024E1FB /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +128,12 @@
 		DE9BA9A9142DD3A500227417 /* Truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Truck.png; sourceTree = "<group>"; };
 		DE9BA9AA142DD3A500227417 /* Truck+Shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Truck+Shadow.png"; sourceTree = "<group>"; };
 		DE9BA9CB142DEF0500227417 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		DE9CAFC3142E1DBA00288C50 /* SCGGame_ipadPreStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGGame_ipadPreStart.h; sourceTree = "<group>"; };
+		DE9CAFC4142E1DBA00288C50 /* SCGGame_ipadPreStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGGame_ipadPreStart.m; sourceTree = "<group>"; };
+		DE9CAFC7142E238100288C50 /* Contractor-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Contractor-4.jpg"; sourceTree = "<group>"; };
+		DEDC6C89142E0B7E0024E1FB /* MOTOCOME.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MOTOCOME.WAV; sourceTree = "<group>"; };
+		DEDC6C94142E0C5F0024E1FB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DEDC6C96142E0C680024E1FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDC6C97142E0C680024E1FB /* QuartzCore.framework in Frameworks */,
+				DEDC6C95142E0C5F0024E1FB /* AudioToolbox.framework in Frameworks */,
 				DE9BA93B142DD06600227417 /* UIKit.framework in Frameworks */,
 				DE9BA93D142DD06600227417 /* Foundation.framework in Frameworks */,
 				DE9BA93F142DD06600227417 /* CoreGraphics.framework in Frameworks */,
@@ -142,7 +155,10 @@
 		DE9BA92B142DD06600227417 = {
 			isa = PBXGroup;
 			children = (
+				DEDC6C96142E0C680024E1FB /* QuartzCore.framework */,
+				DEDC6C94142E0C5F0024E1FB /* AudioToolbox.framework */,
 				DE9BA9CB142DEF0500227417 /* Default-Landscape~ipad.png */,
+				DEDC6C89142E0B7E0024E1FB /* MOTOCOME.WAV */,
 				DE9BA97F142DD0B600227417 /* Font */,
 				DE9BA95A142DD09900227417 /* ImageResource */,
 				DE9BA940142DD06600227417 /* SCGGame_ipad */,
@@ -179,6 +195,8 @@
 				DE9BA950142DD06600227417 /* SCGGame_ipadViewController.m */,
 				DE9BA952142DD06600227417 /* SCGGame_ipadViewController.xib */,
 				DE9BA941142DD06600227417 /* Supporting Files */,
+				DE9CAFC3142E1DBA00288C50 /* SCGGame_ipadPreStart.h */,
+				DE9CAFC4142E1DBA00288C50 /* SCGGame_ipadPreStart.m */,
 			);
 			path = SCGGame_ipad;
 			sourceTree = "<group>";
@@ -216,6 +234,7 @@
 		DE9BA98A142DD21C00227417 /* bg */ = {
 			isa = PBXGroup;
 			children = (
+				DE9CAFC7142E238100288C50 /* Contractor-4.jpg */,
 				DE9BA984142DD21600227417 /* bg-Contractor2.jpg */,
 				DE9BA985142DD21600227417 /* bg-Contractor1-2.jpg */,
 				DE9BA986142DD21600227417 /* bg-Contractor1.jpg */,
@@ -374,6 +393,8 @@
 				DE9BA9BF142DD3A500227417 /* Truck.png in Resources */,
 				DE9BA9C0142DD3A500227417 /* Truck+Shadow.png in Resources */,
 				DE9BA9CD142DEF9A00227417 /* Default-Landscape~ipad.png in Resources */,
+				DEDC6C8A142E0B7E0024E1FB /* MOTOCOME.WAV in Resources */,
+				DE9CAFC8142E238100288C50 /* Contractor-4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +408,7 @@
 				DE9BA948142DD06600227417 /* main.m in Sources */,
 				DE9BA94B142DD06600227417 /* SCGGame_ipadAppDelegate.m in Sources */,
 				DE9BA951142DD06600227417 /* SCGGame_ipadViewController.m in Sources */,
+				DE9CAFC5142E1DBA00288C50 /* SCGGame_ipadPreStart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +527,7 @@
 				DE9BA959142DD06600227417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

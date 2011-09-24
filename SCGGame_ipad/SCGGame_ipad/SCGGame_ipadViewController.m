@@ -7,13 +7,18 @@
 //
 
 #import "SCGGame_ipadViewController.h"
+#import "SCGGame_ipadPreStart.h"
 
 @implementation SCGGame_ipadViewController
+@synthesize soundFileObject,soundFileURLRef;
+@synthesize timer;
+
 
 - (void)animateTruck
 {
+    [self playSound];
     [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:5];
+    [UIView setAnimationDuration:9];
     [truck setFrame:CGRectMake(385, 375, 622, 354)];
     [UIView commitAnimations];
 }
@@ -41,15 +46,25 @@
 - (void)animateLogo
 {
     [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDelay:5];
-    [UIView setAnimationDuration:1];
+    [UIView setAnimationDelay:9];
+    [UIView setAnimationDuration:2];
     [logo setAlpha:1];
     [UIView commitAnimations];
+    timer = [NSTimer scheduledTimerWithTimeInterval:15 target:self selector:@selector(endOpening) userInfo:nil repeats:NO];
 }
 
 - (void)playSound
 {
-    
+    NSURL *sound = [[NSBundle mainBundle] URLForResource:@"MOTOCOME" withExtension:@"WAV"];
+    self.soundFileURLRef = (CFURLRef)[sound retain];
+    AudioServicesCreateSystemSoundID(soundFileURLRef, &soundFileObject);
+    AudioServicesPlayAlertSound(soundFileObject);
+}
+
+-(void)endOpening
+{
+    SCGGame_ipadPreStart *preStartPage = [[SCGGame_ipadPreStart alloc] init];
+    [self presentModalViewController:preStartPage animated:YES];
 }
 
 - (void)dealloc
@@ -105,7 +120,6 @@
     [self animateCloud2];
     [self animateTruck];
     [self animateLogo];
-    
 }
 
 

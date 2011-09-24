@@ -21,7 +21,10 @@
 {
     // Override point for customization after application launch.
      
-    self.window.rootViewController = self.viewController;
+    //self.window.rootViewController = self.viewController;
+    
+    SCGGame_ipadViewController *open = [[SCGGame_ipadViewController alloc] initWithNibName:@"SCGGame_ipadViewController" bundle:[NSBundle mainBundle]];
+    [self.window addSubview:open.view];    
     [self.window makeKeyAndVisible];
     return YES;
 }
