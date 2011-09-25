@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SCGGame_ipadPreStart : UIViewController <UIScrollViewDelegate>{
+@interface SCGGame_ipadPreStart : SCGViewController <UIScrollViewDelegate>{
     UILabel *descriptionLabel;
     UIScrollView *descriptionScroll;
+    NSTimer *timer;
 }
 
+- (void)next;
 
 @end

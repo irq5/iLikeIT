@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SCGGame_ipadMenuView : UIViewController {
-    
+@interface SCGGame_ipadMenuView : SCGViewController {
+    UIView *settingView;
+    UIView *highScoreView;
 }
 
+- (IBAction)settingTapped:(id)sender;
+- (IBAction)closeSettingTapped:(id)sender;
+- (void)endSetting:(NSString *)s :(BOOL)b;
+- (IBAction)highScoreTapped:(id)sender;
+- (IBAction)closeHighScoreTapped:(id)sender;
+- (void)endHighScore:(NSString *)s :(BOOL)b;
 @end

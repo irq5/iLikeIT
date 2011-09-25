@@ -105,6 +105,7 @@
 
 -(void)playMission:(id)sender
 {
+    [self playSound:@"NailHammerintoWood01" withType:@"wav"];
     [UIView beginAnimations:Nil context:nil];
     [UIView setAnimationDuration:1.5];
     [self.view setAlpha:0];

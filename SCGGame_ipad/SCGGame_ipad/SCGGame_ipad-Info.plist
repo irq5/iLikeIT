@@ -40,6 +40,10 @@
 		<string>InSeeDangBold.otf</string>
 		<string>InSeeDangBoldItalic.otf</string>
 		<string>InSeeDangItalic.otf</string>
+		<string>Kunlasatri-Bold.ttf</string>
+		<string>Kunlasatri-Light.ttf</string>
+		<string>Kunlasatri.ttf</string>
+		<string>supermarket.ttf</string>
 	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>

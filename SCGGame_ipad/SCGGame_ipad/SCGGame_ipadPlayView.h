@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SCGGame_ipadPlayView : UIViewController {
+@interface SCGGame_ipadPlayView : SCGViewController {
     NSArray *mission;
     NSArray *missionLock;
 }

@@ -9,18 +9,14 @@
 #import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioToolbox.h>
 
-@interface SCGGame_ipadViewController : UIViewController {
+@interface SCGGame_ipadViewController : SCGViewController {
     UIImageView *truck;
     UIImageView *logo;
     UIImageView *cloud1;
     UIImageView *cloud2;
     
-    CFURLRef soundFileURLRef;
-	SystemSoundID soundFileObject;
     NSTimer *timer;
 }
-@property (readwrite) CFURLRef soundFileURLRef;
-@property (readonly) SystemSoundID soundFileObject;
 @property (nonatomic, retain) NSTimer *timer;
 
 
@@ -29,7 +25,6 @@
 - (void)animateCloud1;
 - (void)animateCloud2;
 - (void)animateLogo;
-- (void)playSound;
 -(void)endOpening;
 
 @end

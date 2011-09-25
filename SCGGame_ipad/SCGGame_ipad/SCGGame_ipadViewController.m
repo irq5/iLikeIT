@@ -11,13 +11,12 @@
 #import "SCGGame_ipadMenuView.h"
 
 @implementation SCGGame_ipadViewController
-@synthesize soundFileObject,soundFileURLRef;
 @synthesize timer;
 
 
 - (void)animateTruck
 {
-    [self playSound];
+    [self playSound:@"MOTOCOME" withType:@"WAV"];
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:9];
     [truck setFrame:CGRectMake(385, 375, 622, 354)];
@@ -54,13 +53,6 @@
     timer = [NSTimer scheduledTimerWithTimeInterval:15 target:self selector:@selector(endOpening) userInfo:nil repeats:NO];
 }
 
-- (void)playSound
-{
-    NSURL *sound = [[NSBundle mainBundle] URLForResource:@"MOTOCOME" withExtension:@"WAV"];
-    self.soundFileURLRef = (CFURLRef)[sound retain];
-    AudioServicesCreateSystemSoundID(soundFileURLRef, &soundFileObject);
-    AudioServicesPlayAlertSound(soundFileObject);
-}
 
 -(void)endOpening
 {
@@ -127,6 +119,7 @@
     [self animateCloud2];
     [self animateTruck];
     [self animateLogo];
+    [self playSound:@"beepbeep" withType:@"wav"];
 }
 
 
