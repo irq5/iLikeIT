@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE809A0C142EDCEA00AB5B2E /* SCGGame_ipadMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE809A09142EDCEA00AB5B2E /* SCGGame_ipadMenuView.m */; };
+		DE809A0D142EDCEA00AB5B2E /* SCGGame_ipadPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE809A0B142EDCEA00AB5B2E /* SCGGame_ipadPlayView.m */; };
+		DE809A1B142EE55B00AB5B2E /* bg-contractor5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE809A18142EE55B00AB5B2E /* bg-contractor5.jpg */; };
+		DE809A1C142EE55B00AB5B2E /* bg-contractor3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE809A19142EE55B00AB5B2E /* bg-contractor3.jpg */; };
+		DE809A1D142EE55B00AB5B2E /* bg-contractor2-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE809A1A142EE55B00AB5B2E /* bg-contractor2-1.jpg */; };
 		DE9BA93B142DD06600227417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9BA93A142DD06600227417 /* UIKit.framework */; };
 		DE9BA93D142DD06600227417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9BA93C142DD06600227417 /* Foundation.framework */; };
 		DE9BA93F142DD06600227417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9BA93E142DD06600227417 /* CoreGraphics.framework */; };
@@ -35,7 +40,6 @@
 		DE9BA97E142DD0B000227417 /* woman-unsmile.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA96C142DD0B000227417 /* woman-unsmile.png */; };
 		DE9BA981142DD0D100227417 /* AndersonFireballXL5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */; };
 		DE9BA983142DD0E800227417 /* THA0169.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA982142DD0E800227417 /* THA0169.ttf */; };
-		DE9BA987142DD21600227417 /* bg-Contractor2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA984142DD21600227417 /* bg-Contractor2.jpg */; };
 		DE9BA988142DD21600227417 /* bg-Contractor1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA985142DD21600227417 /* bg-Contractor1-2.jpg */; };
 		DE9BA989142DD21600227417 /* bg-Contractor1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA986142DD21600227417 /* bg-Contractor1.jpg */; };
 		DE9BA9AB142DD3A500227417 /* bg-question.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA995142DD3A500227417 /* bg-question.png */; };
@@ -73,6 +77,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE809A08142EDCEA00AB5B2E /* SCGGame_ipadMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGGame_ipadMenuView.h; sourceTree = "<group>"; };
+		DE809A09142EDCEA00AB5B2E /* SCGGame_ipadMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGGame_ipadMenuView.m; sourceTree = "<group>"; };
+		DE809A0A142EDCEA00AB5B2E /* SCGGame_ipadPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGGame_ipadPlayView.h; sourceTree = "<group>"; };
+		DE809A0B142EDCEA00AB5B2E /* SCGGame_ipadPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGGame_ipadPlayView.m; sourceTree = "<group>"; };
+		DE809A18142EE55B00AB5B2E /* bg-contractor5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-contractor5.jpg"; sourceTree = "<group>"; };
+		DE809A19142EE55B00AB5B2E /* bg-contractor3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-contractor3.jpg"; sourceTree = "<group>"; };
+		DE809A1A142EE55B00AB5B2E /* bg-contractor2-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-contractor2-1.jpg"; sourceTree = "<group>"; };
 		DE9BA936142DD06600227417 /* SCGGame_ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCGGame_ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9BA93A142DD06600227417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE9BA93C142DD06600227417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,7 +117,6 @@
 		DE9BA96C142DD0B000227417 /* woman-unsmile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woman-unsmile.png"; sourceTree = "<group>"; };
 		DE9BA980142DD0D100227417 /* AndersonFireballXL5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AndersonFireballXL5.ttf; sourceTree = "<group>"; };
 		DE9BA982142DD0E800227417 /* THA0169.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = THA0169.ttf; sourceTree = "<group>"; };
-		DE9BA984142DD21600227417 /* bg-Contractor2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-Contractor2.jpg"; sourceTree = "<group>"; };
 		DE9BA985142DD21600227417 /* bg-Contractor1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-Contractor1-2.jpg"; sourceTree = "<group>"; };
 		DE9BA986142DD21600227417 /* bg-Contractor1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-Contractor1.jpg"; sourceTree = "<group>"; };
 		DE9BA995142DD3A500227417 /* bg-question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-question.png"; sourceTree = "<group>"; };
@@ -205,6 +215,10 @@
 				DE9BA941142DD06600227417 /* Supporting Files */,
 				DE9CAFC3142E1DBA00288C50 /* SCGGame_ipadPreStart.h */,
 				DE9CAFC4142E1DBA00288C50 /* SCGGame_ipadPreStart.m */,
+				DE809A08142EDCEA00AB5B2E /* SCGGame_ipadMenuView.h */,
+				DE809A09142EDCEA00AB5B2E /* SCGGame_ipadMenuView.m */,
+				DE809A0A142EDCEA00AB5B2E /* SCGGame_ipadPlayView.h */,
+				DE809A0B142EDCEA00AB5B2E /* SCGGame_ipadPlayView.m */,
 			);
 			path = SCGGame_ipad;
 			sourceTree = "<group>";
@@ -247,7 +261,9 @@
 			isa = PBXGroup;
 			children = (
 				DE9CAFC7142E238100288C50 /* Contractor-4.jpg */,
-				DE9BA984142DD21600227417 /* bg-Contractor2.jpg */,
+				DE809A18142EE55B00AB5B2E /* bg-contractor5.jpg */,
+				DE809A19142EE55B00AB5B2E /* bg-contractor3.jpg */,
+				DE809A1A142EE55B00AB5B2E /* bg-contractor2-1.jpg */,
 				DE9BA985142DD21600227417 /* bg-Contractor1-2.jpg */,
 				DE9BA986142DD21600227417 /* bg-Contractor1.jpg */,
 			);
@@ -379,7 +395,6 @@
 				DE9BA97E142DD0B000227417 /* woman-unsmile.png in Resources */,
 				DE9BA981142DD0D100227417 /* AndersonFireballXL5.ttf in Resources */,
 				DE9BA983142DD0E800227417 /* THA0169.ttf in Resources */,
-				DE9BA987142DD21600227417 /* bg-Contractor2.jpg in Resources */,
 				DE9BA988142DD21600227417 /* bg-Contractor1-2.jpg in Resources */,
 				DE9BA989142DD21600227417 /* bg-Contractor1.jpg in Resources */,
 				DE9BA9AB142DD3A500227417 /* bg-question.png in Resources */,
@@ -411,6 +426,9 @@
 				DE9CAFCE142E333500288C50 /* InSeeDangBold.otf in Resources */,
 				DE9CAFCF142E333500288C50 /* InSeeDangBoldItalic.otf in Resources */,
 				DE9CAFD0142E333500288C50 /* InSeeDangItalic.otf in Resources */,
+				DE809A1B142EE55B00AB5B2E /* bg-contractor5.jpg in Resources */,
+				DE809A1C142EE55B00AB5B2E /* bg-contractor3.jpg in Resources */,
+				DE809A1D142EE55B00AB5B2E /* bg-contractor2-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +443,8 @@
 				DE9BA94B142DD06600227417 /* SCGGame_ipadAppDelegate.m in Sources */,
 				DE9BA951142DD06600227417 /* SCGGame_ipadViewController.m in Sources */,
 				DE9CAFC5142E1DBA00288C50 /* SCGGame_ipadPreStart.m in Sources */,
+				DE809A0C142EDCEA00AB5B2E /* SCGGame_ipadMenuView.m in Sources */,
+				DE809A0D142EDCEA00AB5B2E /* SCGGame_ipadPlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

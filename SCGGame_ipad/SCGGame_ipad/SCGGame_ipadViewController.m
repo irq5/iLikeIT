@@ -8,6 +8,7 @@
 
 #import "SCGGame_ipadViewController.h"
 #import "SCGGame_ipadPreStart.h"
+#import "SCGGame_ipadMenuView.h"
 
 @implementation SCGGame_ipadViewController
 @synthesize soundFileObject,soundFileURLRef;
@@ -63,10 +64,14 @@
 
 -(void)endOpening
 {
-    SCGGame_ipadPreStart *preStartPage = [[SCGGame_ipadPreStart alloc] init];
-    preStartPage.view.alpha = 0.0;
-    [self presentModalViewController:preStartPage animated:NO];
-    [UIView animateWithDuration:1.5 animations:^{preStartPage.view.alpha = 1.0;}];
+    [UIView beginAnimations:Nil context:nil];
+    [UIView setAnimationDuration:1.5];
+    [self.view setAlpha:0];
+    [UIView commitAnimations];
+    SCGGame_ipadMenuView *menuPage = [[SCGGame_ipadMenuView alloc] init];
+    menuPage.view.alpha = 0.0;
+    [self presentModalViewController:menuPage animated:NO];
+    [UIView animateWithDuration:1.5 animations:^{menuPage.view.alpha = 1.0;}];
 }
 
 - (void)dealloc
