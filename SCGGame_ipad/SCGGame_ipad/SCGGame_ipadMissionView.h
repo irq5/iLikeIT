@@ -7,11 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-
-@interface SCGGame_ipadMissionView : UIViewController 
+@interface SCGGame_ipadMissionView : SCGViewController 
 {
+    UIView *setting;
+    UIButton *settingButton;
+    UIImageView *bgsettingView;
+    UIImageView *womanView;
     
+    UIButton *soundButton;
+    UIButton *playButton;
+    UIButton *questionButton;
+    
+    NSTimer *timer;
+    NSTimer *timer1;
+    
+    BOOL smile;
+    UIImageView *icon;
 }
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SCGGame_ipadMissionView.h"
 
 @class SCGGame_ipadViewController;
 
@@ -16,6 +17,6 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet SCGGame_ipadViewController *viewController;
+@property (nonatomic, retain) IBOutlet SCGGame_ipadMissionView *viewController;
 
 @end

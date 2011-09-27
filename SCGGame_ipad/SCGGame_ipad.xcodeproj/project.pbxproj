@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BF41488142F75EF0047499E /* mission1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF41483142F75E40047499E /* mission1.png */; };
+		8BF41489142F75EF0047499E /* mission2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF41484142F75E70047499E /* mission2.png */; };
+		8BF4148A142F75EF0047499E /* mission3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF41485142F75E90047499E /* mission3.png */; };
+		8BF4148B142F75EF0047499E /* mission4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF41486142F75EA0047499E /* mission4.png */; };
+		8BF4148C142F75EF0047499E /* mission5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF41487142F75ED0047499E /* mission5.png */; };
+		8BF4148E142F75F80047499E /* star-live.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF4148D142F75F70047499E /* star-live.png */; };
 		DE809A0C142EDCEA00AB5B2E /* SCGGame_ipadMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE809A09142EDCEA00AB5B2E /* SCGGame_ipadMenuView.m */; };
 		DE809A0D142EDCEA00AB5B2E /* SCGGame_ipadPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE809A0B142EDCEA00AB5B2E /* SCGGame_ipadPlayView.m */; };
 		DE809A1B142EE55B00AB5B2E /* bg-contractor5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE809A18142EE55B00AB5B2E /* bg-contractor5.jpg */; };
@@ -49,10 +55,6 @@
 		DE9BA954142DD06600227417 /* SCGGame_ipadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA952142DD06600227417 /* SCGGame_ipadViewController.xib */; };
 		DE9BA96D142DD0B000227417 /* frame-game.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95B142DD0B000227417 /* frame-game.png */; };
 		DE9BA96E142DD0B000227417 /* high-score.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95C142DD0B000227417 /* high-score.png */; };
-		DE9BA96F142DD0B000227417 /* hint-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95D142DD0B000227417 /* hint-button.png */; };
-		DE9BA970142DD0B000227417 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95E142DD0B000227417 /* play-button.png */; };
-		DE9BA971142DD0B000227417 /* question-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA95F142DD0B000227417 /* question-button.png */; };
-		DE9BA972142DD0B000227417 /* sound-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA960142DD0B000227417 /* sound-button.png */; };
 		DE9BA973142DD0B000227417 /* logo-game.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA961142DD0B000227417 /* logo-game.png */; };
 		DE9BA975142DD0B000227417 /* quit114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA963142DD0B000227417 /* quit114x114.png */; };
 		DE9BA976142DD0B000227417 /* setting114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BA964142DD0B000227417 /* setting114x114.png */; };
@@ -98,6 +100,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BF41483142F75E40047499E /* mission1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mission1.png; sourceTree = "<group>"; };
+		8BF41484142F75E70047499E /* mission2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mission2.png; sourceTree = "<group>"; };
+		8BF41485142F75E90047499E /* mission3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mission3.png; sourceTree = "<group>"; };
+		8BF41486142F75EA0047499E /* mission4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mission4.png; sourceTree = "<group>"; };
+		8BF41487142F75ED0047499E /* mission5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mission5.png; sourceTree = "<group>"; };
+		8BF4148D142F75F70047499E /* star-live.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-live.png"; sourceTree = "<group>"; };
 		DE809A08142EDCEA00AB5B2E /* SCGGame_ipadMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGGame_ipadMenuView.h; sourceTree = "<group>"; };
 		DE809A09142EDCEA00AB5B2E /* SCGGame_ipadMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGGame_ipadMenuView.m; sourceTree = "<group>"; };
 		DE809A0A142EDCEA00AB5B2E /* SCGGame_ipadPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGGame_ipadPlayView.h; sourceTree = "<group>"; };
@@ -152,10 +160,6 @@
 		DE9BA953142DD06600227417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCGGame_ipadViewController.xib; sourceTree = "<group>"; };
 		DE9BA95B142DD0B000227417 /* frame-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-game.png"; sourceTree = "<group>"; };
 		DE9BA95C142DD0B000227417 /* high-score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-score.png"; sourceTree = "<group>"; };
-		DE9BA95D142DD0B000227417 /* hint-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hint-button.png"; sourceTree = "<group>"; };
-		DE9BA95E142DD0B000227417 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
-		DE9BA95F142DD0B000227417 /* question-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-button.png"; sourceTree = "<group>"; };
-		DE9BA960142DD0B000227417 /* sound-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound-button.png"; sourceTree = "<group>"; };
 		DE9BA961142DD0B000227417 /* logo-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-game.png"; sourceTree = "<group>"; };
 		DE9BA963142DD0B000227417 /* quit114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quit114x114.png; sourceTree = "<group>"; };
 		DE9BA964142DD0B000227417 /* setting114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting114x114.png; sourceTree = "<group>"; };
@@ -344,6 +348,12 @@
 		DE9BA98B142DD23000227417 /* icon */ = {
 			isa = PBXGroup;
 			children = (
+				8BF4148D142F75F70047499E /* star-live.png */,
+				8BF41483142F75E40047499E /* mission1.png */,
+				8BF41484142F75E70047499E /* mission2.png */,
+				8BF41485142F75E90047499E /* mission3.png */,
+				8BF41486142F75EA0047499E /* mission4.png */,
+				8BF41487142F75ED0047499E /* mission5.png */,
 				DE809A28142EEBE800AB5B2E /* left-button.png */,
 				DE809A29142EEBE800AB5B2E /* nonsound-button.png */,
 				DE809A2A142EEBE800AB5B2E /* right-button.png */,
@@ -352,10 +362,6 @@
 				DE809A24142EEB9900AB5B2E /* setting.png */,
 				DE9BA95B142DD0B000227417 /* frame-game.png */,
 				DE9BA95C142DD0B000227417 /* high-score.png */,
-				DE9BA95D142DD0B000227417 /* hint-button.png */,
-				DE9BA95E142DD0B000227417 /* play-button.png */,
-				DE9BA95F142DD0B000227417 /* question-button.png */,
-				DE9BA960142DD0B000227417 /* sound-button.png */,
 				DE9BA961142DD0B000227417 /* logo-game.png */,
 				DE9BA963142DD0B000227417 /* quit114x114.png */,
 				DE9BA964142DD0B000227417 /* setting114x114.png */,
@@ -459,10 +465,6 @@
 				DE9BA954142DD06600227417 /* SCGGame_ipadViewController.xib in Resources */,
 				DE9BA96D142DD0B000227417 /* frame-game.png in Resources */,
 				DE9BA96E142DD0B000227417 /* high-score.png in Resources */,
-				DE9BA96F142DD0B000227417 /* hint-button.png in Resources */,
-				DE9BA970142DD0B000227417 /* play-button.png in Resources */,
-				DE9BA971142DD0B000227417 /* question-button.png in Resources */,
-				DE9BA972142DD0B000227417 /* sound-button.png in Resources */,
 				DE9BA973142DD0B000227417 /* logo-game.png in Resources */,
 				DE9BA975142DD0B000227417 /* quit114x114.png in Resources */,
 				DE9BA976142DD0B000227417 /* setting114x114.png in Resources */,
@@ -526,6 +528,12 @@
 				DE809A86142F324F00AB5B2E /* bg-Contractor1.jpg in Resources */,
 				DE809A88142F326B00AB5B2E /* bg-Contractor1-2.jpg in Resources */,
 				DE809A8A142F32AF00AB5B2E /* bg-contractor-4.jpg in Resources */,
+				8BF41488142F75EF0047499E /* mission1.png in Resources */,
+				8BF41489142F75EF0047499E /* mission2.png in Resources */,
+				8BF4148A142F75EF0047499E /* mission3.png in Resources */,
+				8BF4148B142F75EF0047499E /* mission4.png in Resources */,
+				8BF4148C142F75EF0047499E /* mission5.png in Resources */,
+				8BF4148E142F75F80047499E /* star-live.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
